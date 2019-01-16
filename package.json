@@ -1,0 +1,20 @@
+{
+  "name": "aws.simple-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "awsBucketTesting.js",
+  "dependencies": {
+    "aws-sdk": "^2.388.0",
+    "node": "^11.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderwjrussell/aws.simple-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderwjrussell/aws.simple-node-app/issues"
+  },
+  "homepage": "https://github.com/alexanderwjrussell/aws.simple-node-app#readme"
+}
