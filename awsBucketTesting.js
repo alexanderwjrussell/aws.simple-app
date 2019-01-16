@@ -20,7 +20,11 @@ function get() {
         if (err) return console.log(err);
         console.log(data);
         const body = data.Body;
-        console.log(body); // Outputs a buffer
+        console.log('Body as Buffer: ', body); // Outputs a buffer
+        const stringBody = body.toString('utf8');
+        console.log('Body as string: ', stringBody);
+        const jsonBody = JSON.stringify(body);
+        console.log('Body as JSON: ', jsonBody);
     });
 }
 
@@ -35,4 +39,4 @@ function put() {
     });
 }
 
-list();
+get();
