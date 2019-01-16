@@ -1,1 +1,1 @@
-# aws.simple-node-app
+# aws.simple-app
